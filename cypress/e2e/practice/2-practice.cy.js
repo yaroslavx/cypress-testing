@@ -14,9 +14,9 @@ describe('visit my app', () => {
 
   it('login in google', () => {
     it('Login through Google', () => {
-      const username = Cypress.env('');
-      const password = Cypress.env('');
-      const loginUrl = Cypress.env('https://post-it-app-dun.vercel.app/');
+      const username = Cypress.env.GOOGLE_LOGIN;
+      const password = Cypress.env.GOOGLE_PASSWORD;
+      const loginUrl = Cypress.env.LOGIN_URL;
       const cookieName = Cypress.env('cookieName');
       const socialLoginOptions = {
         username: username,
