@@ -1,0 +1,13 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^11.0.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "cypress-social-logins": "^1.14.0"
+  }
+}
